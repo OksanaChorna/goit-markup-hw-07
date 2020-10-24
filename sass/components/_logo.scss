@@ -5,8 +5,21 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-}
 
-.logo-name {
-  color: $accent-color;
+  &-name {
+    color: $accent-color;
+  }
+
+  .header & {
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+  }
+
+  .footer & {
+    color: $primary-background-color;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
