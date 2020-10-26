@@ -1,5 +1,4 @@
 .button-list {
-  /* display: inline-block; */
   font-family: $main-font;
   font-style: normal;
   font-weight: 500;
@@ -8,23 +7,20 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: $primery-title-color;
-
   width: auto;
   height: auto;
-
   background: #f5f4fa;
   border-radius: 4px;
   border-width: 0;
   cursor: pointer;
   padding: 6px 22px;
-
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.button-list:hover,
-.button-list:focus {
-  color: $primary-background-color;
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $primary-background-color;
+    background-color: $accent-color;
+  }
 }
 
 .portfolio .list {
